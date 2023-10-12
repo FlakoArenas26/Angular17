@@ -1,0 +1,56 @@
+.app-sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #333;
+  color: #fff;
+}
+
+.sidebar-brand {
+  padding: 10px;
+}
+
+.sidebar-brand a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.sidebar-brand img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.sidebar-menu {
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar-menu .list {
+  padding: 10px;
+}
+
+.sidebar-menu .list a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+
+.sidebar-menu .list a:hover {
+  background-color: #555;
+}
+
+.app-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navigation ul li.active {
+  background: #fff;
+}
+
+.navigation ul li.active a {
+  color: #4d5bf9;
+}
